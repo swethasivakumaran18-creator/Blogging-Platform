@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("\t\t\t Blogging platform\t\t\t");
+        System.out.println("\t\t\t Blogging platform\t\t\t\n\n\n");
 
         User u1 = new User("Alice", "alice@gmail.com","123");
         User u2 = new User("Bob", "bob@gmail.com","456");
