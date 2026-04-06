@@ -30,18 +30,18 @@ public class User {
         if ((input.equals(username) || input.equals(email))
                 && this.password.equals(password)) {
             isLoggedIn = true;
-            System.out.println(username+" logged in successfully");
+            System.out.println(username+" logged in successfully\n\n\n");
             return true;
         }
-        System.out.println("Invalid credentials");
+        System.out.println("Invalid credentials\n\n\n");
         return false;
     }
     public void logout() {
         if (isLoggedIn) {
             isLoggedIn = false;
-            System.out.println( username+" logged out successfully");
+            System.out.println( username+" logged out successfully\n\n\n");
         } else {
-            System.out.println("User not logged in");
+            System.out.println("User not logged in\n\n\n");
         }
     }
     public void editProfile(String bio,String username) {
@@ -49,7 +49,7 @@ public class User {
             this.bio = bio;
             this.username=username;
         } else {
-            System.out.println("Login required");
+            System.out.println("Login required\n\n\n");
         }
     }
     public void viewProfile() {
