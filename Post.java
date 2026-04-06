@@ -42,7 +42,7 @@ class Post implements Likeable, Commentable{
         System.out.println("Content: " + content);
         System.out.println("Likes: " + likes.size());
         System.out.println("Comments: " + comments.size());
-        System.out.println("Time: " + timestamp);
+        System.out.println("Time: " + timestamp+"\n\n\n");
     }
     public void like(User user) {
         likes.add(user.getUsername());
